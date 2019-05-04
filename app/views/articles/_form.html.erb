@@ -1,4 +1,4 @@
-<%= render 'layouts/errors' %>
+<%= render 'layouts/errors', obj: @article %>
 <%= form_for(@article, :html => {class: "form-horizontal", role: "form"}) do |f| %>
   <div class="container">
     <div class="row">
