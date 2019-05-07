@@ -37,11 +37,6 @@ class ArticlesController < ApplicationController
       end
     end
 
-  def destroy
-    @article.destroy
-    flash[:danger] = "Article Delete Success"
-    redirect_to articles_path
-  end
 
   private
     # Use callbacks to share common setup or constraints between actions.
