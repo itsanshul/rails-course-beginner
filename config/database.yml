@@ -5,3 +5,10 @@ development:
   username: user
   password: admin
 
+test:
+  adapter: postgresql
+  encoding: utf8
+  database: udemy
+  username: user
+  password: admin
+
